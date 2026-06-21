@@ -103,12 +103,12 @@ Cette section liste les points où j'ai hésité ou mal compris au départ — g
 
 
 
-Frame vs Packet
+**Frame vs Packet**
 
 
-Avant : je mélangeais tout le temps les deux, sans réflexe clair pour les distinguer.
-Correction : le distinguo se fait par la couche OSI concernée — packet = couche 3 (en-tête IP), frame = couche 2 (en-tête MAC). Ce n'est pas une différence de taille ou de moment, mais d'en-tête ajouté à chaque étape de l'encapsulation.
-Pourquoi ça aide : penser "à quelle couche je suis" avant de nommer l'objet retire l'ambiguïté — le terme suit la couche, pas l'inverse.
+- **Avant** : je mélangeais tout le temps les deux, sans réflexe clair pour les distinguer.
+- **Correction** : le distinguo se fait par la couche OSI concernée — packet = couche 3 (en-tête IP), frame = couche 2 (en-tête MAC). Ce n'est pas une différence de taille ou de moment, mais d'en-tête ajouté à chaque étape de l'encapsulation.
+- **Pourquoi ça aide** : penser "à quelle couche je suis" avant de nommer l'objet retire l'ambiguïté — le terme suit la couche, pas l'inverse.
 
 ## 💡 Ce que j'ai retenu
 

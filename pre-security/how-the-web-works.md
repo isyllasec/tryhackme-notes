@@ -102,7 +102,7 @@ Séquence complète, de l'URL tapée jusqu'à l'affichage de la page :
 
 1. L'URL doit être convertie en IP → résolution **DNS** (recursive server et ses relais).
 2. Une requête **HTTP** (méthode GET généralement) est formée.
-3. Elle est transportée via **TCP**, en suivant l'encapsulation vue dans le modèle **OSI**.
+3. Elle est transportée via **TCP**, en suivant l'encapsulation vue dans le [modèle **OSI**](https://github.com/isyllasec/tryhackme-notes/blob/main/pre-security/networking-fundamentals.md#-pourquoi-un-mod%C3%A8le-en-couches-osi).
 4. Le serveur traite la requête avec les vérifications nécessaires (inputs, authentification...).
 5. Le serveur écrit la réponse (HTML, CSS, JS, assets) et la renvoie en suivant le chemin inverse jusqu'au navigateur, qui l'affiche.
 

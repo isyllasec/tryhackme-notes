@@ -96,7 +96,7 @@ Wireshark présente en réalité toute la pile encapsulée pour chaque trame cap
 
 C'est cette capacité de filtrage ciblé qui rend le switch largement préféré au hub dans les réseaux modernes.
 
-🔄 Erreurs de parcours
+## 🔄 Erreurs de parcours
 
 
 Cette section liste les points où j'ai hésité ou mal compris au départ — gardé volontairement pour suivre ma propre progression, pas juste afficher la version "propre".
